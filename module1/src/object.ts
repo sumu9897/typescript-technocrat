@@ -5,10 +5,10 @@ const user :{
     middleName?: string; // Optional Type
     lastName: string;
     isStudent: boolean;
-    unversity: 'American International University-Bangladesh'; // type --> literal types
+    readonly university:  string; // type --> literal types
 }= {
     firstName: "Mohammad",
     lastName: "Sumon",
     isStudent: true,
-    unversity: "American International University-Bangladesh"
+    university: "American International University-Bangladesh"
 }
